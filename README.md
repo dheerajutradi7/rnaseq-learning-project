@@ -3,6 +3,10 @@
 ## Overview
 This project analyzes bulk RNA-seq data from the glioblastoma cell line **BT935**, profiling gene expression across four conditions to study how blocking mitochondrial pyruvate metabolism (**UK5099**) affects the transcriptional response to standard chemoradiation therapy (**TMZRT** — Temozolomide + Radiotherapy).
 
+## Project Nature
+
+This is a **practice / learning project** built entirely on publicly available data (SRA BioProject PRJNA1065856). It was created to demonstrate a complete, reproducible bulk RNA-seq analysis pipeline — from raw reads to biological interpretation — as a portfolio piece. No original wet-lab data was generated; all credit for the underlying dataset belongs to the original submitters (University of Manitoba).
+
 **Design:** 2x2 factorial, n=3 per group, 12 samples total.
 
 | Group | Treatment | Drug |
@@ -51,13 +55,6 @@ Raw and intermediate files (FASTQ, salmon index, quant.sf) are not included in t
 conda create -n rnaseq -c bioconda -c conda-forge sra-tools fastqc multiqc fastp salmon
 conda create -n r_deseq -c bioconda -c conda-forge r-base=4.3 bioconductor-deseq2 bioconductor-tximport r-ggplot2 r-pheatmap bioconductor-clusterprofiler bioconductor-org.hs.eg.db
 ```
-
-## Author
-Analysis performed as a portfolio project for bulk RNA-seq data analysis.
-
-## Project Nature
-
-This is a **practice / learning project** built entirely on publicly available data (SRA BioProject PRJNA1065856). It was created to demonstrate a complete, reproducible bulk RNA-seq analysis pipeline — from raw reads to biological interpretation — as a portfolio piece. No original wet-lab data was generated; all credit for the underlying dataset belongs to the original submitters (University of Manitoba).
 
 ## Walkthrough: Reproducing This Pipeline With Your Own Samples
 
