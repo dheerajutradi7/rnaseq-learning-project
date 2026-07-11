@@ -1,0 +1,21 @@
+[2026-07-11 10:04:50,997] multiqc                                            [DEBUG  ]  This is MultiQC v1.19
+[2026-07-11 10:04:50,997] multiqc                                            [DEBUG  ]  Command used: /home/mbdusr/anaconda3/envs/rnaseq/bin/multiqc results/fastqc_trimmed -o results/multiqc_trimmed
+[2026-07-11 10:04:52,238] multiqc                                            [WARNING]  MultiQC Version v1.35 now available!
+[2026-07-11 10:04:52,238] multiqc                                            [DEBUG  ]  Working dir : /home/mbdusr/rnaseq_project
+[2026-07-11 10:04:52,238] multiqc                                            [DEBUG  ]  Template    : default
+[2026-07-11 10:04:52,238] multiqc                                            [DEBUG  ]  Running Python 3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]
+[2026-07-11 10:04:52,239] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, xenome, xengsort
+[2026-07-11 10:04:52,239] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmptn_b5vlp
+[2026-07-11 10:04:52,242] multiqc                                            [INFO   ]  Search path : /home/mbdusr/rnaseq_project/results/fastqc_trimmed
+[2026-07-11 10:04:52,433] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 312] // [skipped_no_match: 24]
+[2026-07-11 10:04:52,681] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.9.2
+[2026-07-11 10:04:52,682] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.9.2
+[2026-07-11 10:04:52,682] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2026-07-11 10:04:53,241] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2026-07-11 10:04:53,260] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2026-07-11 10:04:53,271] multiqc                                            [DEBUG  ]  Compressing plot data
+[2026-07-11 10:04:53,407] multiqc                                            [INFO   ]  Report      : results/multiqc_trimmed/multiqc_report.html
+[2026-07-11 10:04:53,407] multiqc                                            [INFO   ]  Data        : results/multiqc_trimmed/multiqc_data
+[2026-07-11 10:04:53,407] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmptn_b5vlp/multiqc_data' to 'results/multiqc_trimmed/multiqc_data'
+[2026-07-11 10:04:53,408] multiqc                                            [DEBUG  ]  Full report path: /home/mbdusr/rnaseq_project/results/multiqc_trimmed/multiqc_report.html
+[2026-07-11 10:04:53,456] multiqc                                            [INFO   ]  MultiQC complete

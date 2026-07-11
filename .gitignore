@@ -1,0 +1,6 @@
+data/raw_fastq/
+data/trimmed_fastq/
+reference/salmon_index/
+reference/*.fa.gz
+results/salmon_quant/
+*.sra
