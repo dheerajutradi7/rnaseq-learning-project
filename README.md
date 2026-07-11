@@ -1,5 +1,15 @@
 # Bulk RNA-seq Analysis: Glioblastoma Response to Chemoradiation ± Mitochondrial Metabolism Inhibition
 
+
+## Contents
+- [Overview](#overview)
+- [Pipeline](#pipeline)
+- [Key Results](#key-results)
+- [Data Availability](#data-availability)
+- [Environment](#environment)
+- [Project Nature](#project-nature)
+- [Walkthrough: Reproducing This Pipeline With Your Own Samples](#walkthrough-reproducing-this-pipeline-with-your-own-samples)
+
 ## Overview
 This project analyzes bulk RNA-seq data from the glioblastoma cell line **BT935**, profiling gene expression across four conditions to study how blocking mitochondrial pyruvate metabolism (**UK5099**) affects the transcriptional response to standard chemoradiation therapy (**TMZRT** — Temozolomide + Radiotherapy).
 
